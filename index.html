@@ -16,7 +16,24 @@
 </head>
 
 <body>
-  <h1 class="text-center p-1">Today's Review</h1>
+  <div class="d-flex justify-content-center align-items-center">
+    <div>
+      <a href="#a">
+        <img style="color: red" class="fa fa-arrow-circle-left" src="" alt="" />
+        <!-- <i style="margin-left: 11px; color: red" class="fa fa-arrow-circle-left"></i> -->
+      </a>
+    </div>
+    <div>
+      <h1 class="text-center p-1">Today's Review</h1>
+    </div>
+    <div>
+      <a href="#a">
+        <img style="color: red" class="fa fa-arrow-circle-right" src="" alt="" />
+        <!-- <i style="margin-left: 11px; color: red" class="fa fa-arrow-circle-left"></i> -->
+      </a>
+    </div>
+  </div>
+
   <!-- table -->
   <form action="/" method="post">
     <div class="table-responsive">
@@ -25,7 +42,9 @@
           <tr>
             <td>
               <div class="d-flex">
-                <span> <img class="fa fa-calendar" src="" alt="" /> </span>
+                <a href="">
+                  <span> <img class="fa fa-calendar" src="" alt="" /> </span>
+                </a>
                 <input class="ms-3" type="text" />
                 <a href="#">
                   <!-- <i style="margin-left: 11px" class="fa fa-calendar"></i> -->
