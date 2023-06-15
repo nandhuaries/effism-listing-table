@@ -1,0 +1,18 @@
+.sub{
+  background-color: #1DA1F2;
+  color: white;
+  font-weight: bold;
+  border: 1px solid;
+}
+.sub:hover{
+  color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+select {
+  border: 1px solid;
+  /* border-color: #dee2e6; */
+}
+
+table, td{
+  color:#808382;
+}
