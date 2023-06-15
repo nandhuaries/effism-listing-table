@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!-- link of bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- end link of bootstrap -->
+    <!-- font aswome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- end font aswome -->
+    <!-- sdf -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"
+      integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css"
+      integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- <h1 class="text-center p-5">Today's Review</h1> -->
+    <!-- table -->
+    <form action="/" method="post">
+      <div class="table-responsive">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <!-- <h1 class="text-center p-5">Today's Review</h1> -->
+              <div class="d-flex justify-content-around">
+                <div class="d-flex justify-content-center align-items-center">
+                  <a href="#a">
+                    <i
+                      style="margin-left: 11px"
+                      class="fa fa-arrow-circle-o-left"
+                    ></i>
+                  </a>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-center align-items-center"
+                >
+                  <h1 class="text-center p-5">Today's Review</h1>
+                  <input style="height: 28px;" type="text" />
+                  <a href="#">
+                    <i style="margin-left: 11px" class="fa fa-calendar"></i>
+                  </a>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                  <a href=" #">
+                    <i
+                      style="margin-left: 11px"
+                      class="fa fa-arrow-circle-o-right"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!-- <th scope="col">
+              <div class="d-flex ">
+                <input type="text" />
+                <a href="#">
+                  <i style="margin-left: 11px" class="fa fa-calendar"></i>
+                </a>
+              </div>
+            </th> -->
+              <th scope="col">
+                <div class="">
+                  <label for="timeIn">Time in</label>
+                  <select name="" id="timeIn">
+                    <option value="All">All</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+              </th>
+              <th scope="col">
+                <label for="estTime">Est Time</label>
+                <select name="" id="estTime">
+                  <option value="">All</option>
+                  <option value="">Yes</option>
+                  <option value="">No</option>
+                </select>
+              </th>
+              <th scope="col">
+                <label for="dayType">Day type</label>
+                <select name="" id="dayType">
+                  <option value="all">All</option>
+                  <option value="working day">Working Day</option>
+                  <option value="sitejob">Site Job</option>
+                  <option value="holiday">Holiday</option>
+                </select>
+              </th>
+              <th scope="col">
+                <label for="lockStatus">Lock Status</label>
+                <select name="" id="lockStatus">
+                  <option value="all">All</option>
+                  <option value="working day">Locked</option>
+                  <option value="sitejob">Unlocked</option>
+                  <option value="holiday">Expired</option>
+                  <option value="holiday">Effism Issue</option>
+                </select>
+              </th>
+              <th scope="col">
+                <label for="sortBy">Sort By</label>
+                <select name="" id="sortBy">
+                  <option value="all">Name</option>
+                  <option value="working day">Est Time</option>
+                  <option value="sitejob">Efficiency</option>
+                  <option value="holiday">Break</option>
+                  <option value="holiday">Doj</option>
+                </select>
+              </th>
+              <th scope="col">
+                <label for="sortOrder">Sort Order</label>
+                <select name="" id="sortOrder">
+                  <option value="all">Asc</option>
+                  <option value="working day">Desc</option>
+                  <option value="sitejob">Efficiency</option>
+                  <option value="holiday">Break</option>
+                  <option value="holiday">Doj</option>
+                </select>
+                <a href="#a">
+                  <img class="fa fa-question" src="" alt="" />
+                  <!-- <i style="margin-left: 11px; color: red" class="fa fa-question"></i> -->
+                </a>
+              </th>
+            </tr>
+            <!-- second row -->
+            <tr>
+              <th>
+                <label for="company">Company</label>
+                <select name="" id="company">
+                  <option value="all">Select Company</option>
+                  <option value="working day">Desc</option>
+                  <option value="sitejob">Efficiency</option>
+                  <option value="holiday">Break</option>
+                  <option value="holiday">Doj</option>
+                </select>
+              </th>
+              <th>
+                <label for="division">Division</label>
+                <select name="" id="division">
+                  <option value="all">Select Company</option>
+                  <option value="working day">Desc</option>
+                  <option value="sitejob">Efficiency</option>
+                  <option value="holiday">Break</option>
+                  <option value="holiday">Doj</option>
+                </select>
+              </th>
+              <th>
+                <label for="subDiv">Sub Division</label>
+                <select wi name="" id="subDiv">
+                  <option value="">All Sub divisions</option>
+                  <option value="">2D</option>
+                  <option value="">3D</option>
+                  <option value="">ABC</option>
+                  <option value="">Accounts</option>
+                  <option value="">ACI</option>
+                </select>
+              </th>
+              <th>
+                <label for="group">Group</label>
+                <select wi name="" id="group">
+                  <option value="">Select Group</option>
+                  <option value="">Aries HO</option>
+                  <option value="">Indian Branches</option>
+                </select>
+              </th>
+              <th>
+                <label for="location">Location</label>
+                <select wi name="" id="location">
+                  <option value="">All Location</option>
+                  <option value="">Dubai</option>
+                  <option value="">Singapore</option>
+                  <option value="">Dammam</option>
+                </select>
+              </th>
+              <!-- <th>
+            <label for="empCat">Emp Category</label>
+            <select wi name="" id="empCat">
+              <option value="">All Categories</option>
+              <option value="">Productive</option>
+              <option value="">Semi Productive</option>
+              <option value="">Supporting</option>
+            </select>
+          </th> -->
+              <th>
+                <label for="">Emp Category</label>
+                <select name="" id="">
+                  <option value="">All Categories</option>
+                  <option value="">Productive</option>
+                  <option value="">Semi Productive</option>
+                </select>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- <button type="submit">submit</button> -->
+    </form>
+
+    <!-- bootstrap js -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end bootstrap js -->
+    <!-- try select search -->
+  </body>
+</html>
