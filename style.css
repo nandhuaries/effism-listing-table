@@ -17,3 +17,6 @@ select {
 table, td{
   color:#808382;
 }
+body{
+  font-family: 'Poppins', sans-serif;
+}
