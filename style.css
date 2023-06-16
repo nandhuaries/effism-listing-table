@@ -10,12 +10,10 @@
 }
 select {
   border: 1px solid;
-  /* border-color: #dee2e6; */
+  border-color: #dee2e6;
+  width: 100%;
 }
 
 table, td{
   color:#808382;
-}
-select{
-  width: 100%;
 }
