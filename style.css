@@ -16,3 +16,6 @@ select {
 table, td{
   color:#808382;
 }
+select{
+  width: 100%;
+}
