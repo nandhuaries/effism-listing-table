@@ -19,8 +19,15 @@ table, td{
 }
 body{
   font-family: 'Poppins', sans-serif;
-  background-image: url(images/bg.jpg);
+  /* background-image: url(images/bg.jpg); */
 }
 .seleForFir{
   width: 75%;
+}
+.firstTab td{
+  border: none;
+}
+.firstTab{
+  /* border: 1px solid; */
+  /* padding: 15px; */
 }
